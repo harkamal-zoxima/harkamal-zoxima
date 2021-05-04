@@ -3,15 +3,15 @@ import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
   image: {
     width: 408,
-    height: 250,
-    marginTop: 45,
+    height: 270,
+    // marginTop: 45,
   },
   text: {
     width: 350,
     height: 45,
     borderColor: '#C61B23',
     borderWidth: 2,
-    marginTop: 40,
+    marginTop: 30,
     marginLeft: 25,
     borderRadius: 4,
     fontSize: 17,
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     width: 180,
     height: 45,
     backgroundColor: '#C61B23',
-    marginTop: 50,
+    marginTop: 30,
     marginLeft: 104,
     borderRadius: 3,
     textAlign: 'center'

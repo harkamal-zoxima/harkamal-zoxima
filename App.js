@@ -1,11 +1,8 @@
 import React from 'react';
-import Login from './Containers/Login/Login'
-import Menu from './Containers/Menu/Menu'
+import AppNavigator from './Navigation/HomeStack';
 
 const App = () => {
-  return (
-    <Menu />
-  );
+  return <AppNavigator />;
 };
 
 export default App;

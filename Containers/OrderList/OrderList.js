@@ -6,9 +6,9 @@ import {
     View,
     Image,
   } from 'react-native';
-  import styles from './LoginStyles'
+  import styles from '../Login/LoginStyles'
   
-class Login extends React.Component{
+class OrderList extends React.Component{
     render(){
         return(
             <View>
@@ -31,4 +31,4 @@ class Login extends React.Component{
     }
 }
 
-export default Login;
+export default OrderList;
