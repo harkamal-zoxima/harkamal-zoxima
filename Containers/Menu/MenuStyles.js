@@ -1,6 +1,15 @@
-import {StyleSheet} from 'react-native';
+import {Dimensions, StyleSheet} from 'react-native';
+
+var Width = Dimensions.get("window").width;
 
 const styles = StyleSheet.create({
+
+    outerdiv:{
+        // flex:1,
+        // display:"flex",
+        flexDirection:"row",
+        flexWrap:"wrap"
+    },
     image:{
          width: 90, 
          height: 105,
@@ -9,13 +18,13 @@ const styles = StyleSheet.create({
          
     },
     container:{
-        width:140,
+        width:width/2-10,
         height:250,
         backgroundColor:"#FFFFFF",
         borderWidth:1,
         borderColor:"#00000029",
-        margin:30,
-        
+        marginLeft:30,
+        marginTop:30,
     },
     text:{
         textAlign:"center",

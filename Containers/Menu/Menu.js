@@ -5,7 +5,7 @@ import MenuCard from './MenuCard'
 
 const Menu = () => {
   return (
-    <View>
+    <View style={styles.outerdiv}>
         <ScrollView>
       <MenuCard image={require('../../Assets/Images/cart.png')} text='Your Order'/>
       <MenuCard image={require('../../Assets/Images/twopic.png')} text='Order List'/>

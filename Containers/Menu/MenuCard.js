@@ -2,19 +2,18 @@ import React from 'react';
 import {View, Text, Image, TouchableOpacity} from 'react-native';
 import styles from './MenuStyles';
 
-const Menu = ({image,text}) => {
+const MenuCard = ({image,text}) => {
   return (
-    <View>
+    <View >
       <TouchableOpacity style={styles.container}>
         <Image
           style={styles.image}
           source={image}
         />
-
         <Text style={styles.text}>{text}</Text>
       </TouchableOpacity>
     </View>
   );
 };
 
-export default Menu;
+export default MenuCard;
