@@ -13,17 +13,17 @@ const Menu = ({navigation}) => {
 
     <View style={styles.innerdiv}>
       <MenuCard image={require('../../Assets/Images/cart.png')} text='Your Order' Screen="NewOrder"/>
-      <MenuCard image={require('../../Assets/Images/twopic.png')} text='Order List'/>
+      <MenuCard image={require('../../Assets/Images/twopic.png')} text='Order List' Screen="NewOrder"/>
     </View>
 
       <View style={styles.outerdiv}>
-      <MenuCard image={require('../../Assets/Images/threepic.png')} text='Delivery Tracking'/>
-      <MenuCard image={require('../../Assets/Images/fourpic.png')} text='Stock Status'/>
+      <MenuCard image={require('../../Assets/Images/threepic.png')} text='Delivery Tracking' Screen="NewOrder"/>
+      <MenuCard image={require('../../Assets/Images/fourpic.png')} text='Stock Status' Screen="NewOrder"/>
     </View>
 
     <View style={styles.outerdiv}>
-      <MenuCard image={require('../../Assets/Images/fivepic.png')} text='Outstanding'/>
-      <MenuCard image={require('../../Assets/Images/sixpic.png')} text='Complaints'/>
+      <MenuCard image={require('../../Assets/Images/fivepic.png')} text='Outstanding' Screen="NewOrder"/>
+      <MenuCard image={require('../../Assets/Images/sixpic.png')} text='Complaints' Screen="NewOrder"/>
     </View>
 
     </ScrollView>

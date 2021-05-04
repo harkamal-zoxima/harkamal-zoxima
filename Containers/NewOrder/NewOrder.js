@@ -22,7 +22,7 @@ class NewOrder extends React.Component{
                 <TextInput style={styles.text} placeholder="Username"></TextInput>
                 <TextInput style={styles.text} placeholder="Password"></TextInput>
 
-                <TouchableOpacity style={styles.button} onPress={()=>this.props.navigation.navigate("Menu")}>
+                <TouchableOpacity style={styles.button} >
                     <Text style={styles.buttonText}>LOG IN</Text>
                 </TouchableOpacity>
             </View>

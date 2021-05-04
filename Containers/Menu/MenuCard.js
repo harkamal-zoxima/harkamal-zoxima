@@ -1,16 +1,19 @@
 import React from 'react';
 import {View, Text, Image, TouchableOpacity} from 'react-native';
 import styles from './MenuStyles';
+import {useNavigation} from 'react-navigation-hooks';
 
-const MenuCard = (props) => {
+const MenuCard = ({image,text,Screen}) => {
+    const {navigate} = useNavigation();
+    // alert(Screen)
   return (
     <View >
-      <TouchableOpacity style={styles.container} onPress={()=>props.navigation?.navigate(props.Screen)}>
+      <TouchableOpacity style={styles.container} onPress={()=>navigate(Screen)} >
         <Image
           style={styles.image}
-          source={props.image}
+          source={image}
         />
-        <Text style={styles.text}>{props.text}</Text>
+        <Text style={styles.text}>{text}</Text>
       </TouchableOpacity>
       
     </View>
