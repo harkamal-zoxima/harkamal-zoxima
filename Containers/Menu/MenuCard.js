@@ -5,7 +5,7 @@ import {useNavigation} from 'react-navigation-hooks';
 
 const MenuCard = ({image,text,Screen}) => {
     const {navigate} = useNavigation();
-    // alert(Screen)
+    
   return (
     <View >
       <TouchableOpacity style={styles.container} onPress={()=>navigate(Screen)} >

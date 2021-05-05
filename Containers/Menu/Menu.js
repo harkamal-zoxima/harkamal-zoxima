@@ -3,7 +3,7 @@ import {View,ScrollView, Text} from 'react-native';
 import styles from './MenuStyles';
 import MenuCard from './MenuCard'
 
-const Menu = ({navigation}) => {
+const Menu = () => {
   return (
   <View>
     <ScrollView>
@@ -13,12 +13,12 @@ const Menu = ({navigation}) => {
 
     <View style={styles.innerdiv}>
       <MenuCard image={require('../../Assets/Images/cart.png')} text='Your Order' Screen="NewOrder"/>
-      <MenuCard image={require('../../Assets/Images/twopic.png')} text='Order List' Screen="NewOrder"/>
+      <MenuCard image={require('../../Assets/Images/twopic.png')} text='Order List' Screen="OrderList"/>
     </View>
 
       <View style={styles.outerdiv}>
       <MenuCard image={require('../../Assets/Images/threepic.png')} text='Delivery Tracking' Screen="NewOrder"/>
-      <MenuCard image={require('../../Assets/Images/fourpic.png')} text='Stock Status' Screen="NewOrder"/>
+      <MenuCard image={require('../../Assets/Images/fourpic.png')} text='Stock Status' Screen="Stock"/>
     </View>
 
     <View style={styles.outerdiv}>
