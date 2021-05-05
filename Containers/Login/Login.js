@@ -20,7 +20,7 @@ class Login extends React.Component{
                     style={styles.image}
                 />
                 <TextInput style={styles.text} placeholder="Username"></TextInput>
-                <TextInput style={styles.text} placeholder="Password"></TextInput>
+                <TextInput style={styles.text} secureTextEntry={true} placeholder="Password"></TextInput>
 
                 <TouchableOpacity style={styles.button} onPress={()=>this.props.navigation.navigate("Menu")}>
                     <Text style={styles.buttonText}>LOG IN</Text>

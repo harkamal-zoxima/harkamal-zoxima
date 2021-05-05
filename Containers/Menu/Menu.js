@@ -17,13 +17,14 @@ const Menu = () => {
     </View>
 
       <View style={styles.outerdiv}>
-      <MenuCard image={require('../../Assets/Images/threepic.png')} text='Delivery Tracking' Screen="NewOrder"/>
+      <MenuCard image={require('../../Assets/Images/threepic.png')} text='Delivery Tracking' Screen="Delivery"/>
       <MenuCard image={require('../../Assets/Images/fourpic.png')} text='Stock Status' Screen="Stock"/>
     </View>
+    
 
     <View style={styles.outerdiv}>
-      <MenuCard image={require('../../Assets/Images/fivepic.png')} text='Outstanding' Screen="NewOrder"/>
-      <MenuCard image={require('../../Assets/Images/sixpic.png')} text='Complaints' Screen="NewOrder"/>
+      <MenuCard image={require('../../Assets/Images/fivepic.png')} text='Outstanding' Screen="Outstanding"/>
+      <MenuCard image={require('../../Assets/Images/sixpic.png')} text='Complaints' Screen="Complaints"/>
     </View>
 
     </ScrollView>

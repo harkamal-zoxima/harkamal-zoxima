@@ -10,6 +10,7 @@ function Tab1() {
     <OrderListCard />
   );
 }
+
 function Tab2() {
   return (
     <OrderListCard />

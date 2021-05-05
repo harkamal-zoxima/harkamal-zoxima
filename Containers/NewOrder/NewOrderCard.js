@@ -71,18 +71,16 @@ const NewOrderCard = ({image,title,ndp}) => {
               height: 30,
               color: '#9A9A9A',
             }}>
-            <Picker
-              style={{
-                marginLeft: -15,
-                marginTop: -13,
-                color: '#9A9A9A',
-                fontSize: 10,
-              }}
-              selectedValue="Enter qty...">
-              <Picker.Item label="Enter qty..."></Picker.Item>
-              <Picker.Item label="blue"></Picker.Item>
-              <Picker.Item label="yellow"></Picker.Item>
-            </Picker>
+            
+            <TextInput
+            style={{
+              marginLeft: -2,
+              marginTop: -7,
+              color: '#9A9A9A',
+              fontSize: 15,
+            }}
+            ></TextInput>
+
           </View>
         </View>
       </View>
@@ -97,3 +95,18 @@ const NewOrderCard = ({image,title,ndp}) => {
 };
 
 export default NewOrderCard;
+
+
+
+{/* <Picker
+              style={{
+                marginLeft: -15,
+                marginTop: -13,
+                color: '#9A9A9A',
+                fontSize: 10,
+              }}
+              selectedValue="Enter qty...">
+              <Picker.Item label="Enter qty..."></Picker.Item>
+              <Picker.Item label="blue"></Picker.Item>
+              <Picker.Item label="yellow"></Picker.Item>
+            </Picker> */}
